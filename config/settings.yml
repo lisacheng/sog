@@ -46,7 +46,7 @@ price: 	19.95
 # if use_payment_options is set to true, then a set of radio buttons will be displayed with various payment options.
 # There is a PaymentOption model for storing info about payment options.  To set up your payment options you should
 # put code in seeds.rb, then run rake db:seed
-use_payment_options: true
+use_payment_options: false
 
 payment_description: "The BitCrystal Token Sale is a crowdfund. When you buy BitCrystals, you become a backer of the project. This means you get rewarded with the game’s premium currency while funding its development. You can then use your BitCrystals to purchase new card decks and game items or trade them on Counterparty."
 
